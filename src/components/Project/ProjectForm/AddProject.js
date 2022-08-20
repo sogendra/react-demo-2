@@ -26,7 +26,7 @@ const AddProject = () => {
 
     return (
         <>
-            Add new Project 
+            <h1>Add new Project </h1>
             <ProjectForm project={initialFormValue} handleSubmit={addProject} btnText="Save" />
         </>
     )

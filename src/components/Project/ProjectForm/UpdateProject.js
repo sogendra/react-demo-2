@@ -25,7 +25,7 @@ const UpdateProject = () => {
 
     return (
         <>
-            Update project
+           <h1>Update project</h1> 
            <ProjectForm project={project} handleSubmit={updateProject} btnText="Update" />
         </>
     )

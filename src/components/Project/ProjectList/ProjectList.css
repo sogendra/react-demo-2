@@ -1,0 +1,27 @@
+.project-list table {
+    border-collapse: collapse;
+    border-radius: 10px 10px 0 0 ;
+    overflow: hidden;
+}
+
+.project-list thead {
+    background-color: #1a52b4;
+    color: #d6ead5;
+}
+
+.project-list th {
+    padding: .9rem;
+}
+
+.project-list tr td {
+    padding: .9rem;
+}
+
+.project-list tbody tr:nth-child(even) {
+    background-color: #f0f1f2;
+}
+
+.project-list tbody tr:last-child {
+    border-bottom: .3rem solid #1a52b4;
+}
+
